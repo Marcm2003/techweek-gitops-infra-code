@@ -13,7 +13,7 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/jaimejorge/techweek-app-code.git  # Can point to either a Helm chart repo or a git repo.
+    repoURL: https://github.com/Marcm2003/techweek-app-code.git  # Can point to either a Helm chart repo or a git repo.
     targetRevision: HEAD  # For Helm, this refers to the chart version.
     path: deploy/techweek-app-code # This has no meaning for Helm charts pulled directly from a Helm repo instead of git.
     helm:
